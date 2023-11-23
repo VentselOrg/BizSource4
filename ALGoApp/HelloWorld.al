@@ -1,12 +1,20 @@
-// Welcome to your new AL extension.
-// Remember that object names and IDs should be unique across all extensions.
-// AL snippets start with t*, like tpageext - give them a try and happy coding!
-
+/// <summary>
+/// The page extension object for the Customer List page.
+/// </summary>
 pageextension 55000 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello world');
+        ShowMessage(UserId());
+    end;
+
+    /// <summary>
+    /// Shows a message to the user.
+    /// </summary>
+    /// <param name="UserName">The name of the user</param>
+    local procedure ShowMessage(UserName: Text)
+    begin
+        Message('Hello %1', UserName);
     end;
 }
 

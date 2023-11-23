@@ -1,0 +1,10 @@
+﻿{
+  "Modules": [
+    {
+      "AppId": "0e5c1d11-6b9b-4c4d-8a8c-3a27872602cf",
+      "Name": "ALGoApp",
+      "Publisher": "Artur",
+      "Version": "1.0.0.0"
+    }
+  ]
+}

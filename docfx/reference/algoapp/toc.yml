@@ -1,0 +1,9 @@
+﻿items:
+- name: Overview
+  uid: N:Module::ALGoApp
+- name: Reference
+  items:
+  - name: PageExtensions
+    items:
+    - name: CustomerListExt
+      uid: O:PageExtension::CustomerListExt

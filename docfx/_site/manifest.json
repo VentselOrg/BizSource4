@@ -1,0 +1,67 @@
+{
+  "source_base_path": "C:/Work/ALApps/BizSource4/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/algoapp/Module/ALGoApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/algoapp/Module/ALGoApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/algoapp/PageExtension/CustomerListExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/algoapp/PageExtension/CustomerListExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/algoapp/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/algoapp/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/algoapp/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

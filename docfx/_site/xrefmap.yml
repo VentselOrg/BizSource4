@@ -1,0 +1,14 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: N:Module::ALGoApp
+  name: ALGoApp
+  summary: ''
+  fqName: ALGoApp by Artur (1.0.0.0)
+  href: reference/algoapp/Module/ALGoApp.html
+- uid: O:PageExtension::CustomerListExt
+  name: CustomerListExt
+  summary: >
+    <p sourcefile="reference/algoapp/PageExtension/CustomerListExt.yml" sourcestartlinenumber="1" jsonPath="/summary">The page extension object for the Customer List page.</p>
+  fqName: CustomerListExt
+  href: reference/algoapp/PageExtension/CustomerListExt.html
